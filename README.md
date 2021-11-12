@@ -25,10 +25,14 @@ This repository contains a solution for the Guided Project: Exploring eBay Car S
 ## Setup
 
 1. Git Clone the repo
-   ```git clone https://github.com/thiagomaiasouto/Exploring-eBay-Car-Sales-Data.git```
+   ```
+   git clone https://github.com/thiagomaiasouto/Exploring-eBay-Car-Sales-Data.git
+   ```
 
 2. Go to project root folder
-   ```cd Exploring-eBay-Car-Sales-Data```
+   ```
+   cd Exploring-eBay-Car-Sales-Data
+   ```
 
 3. Setup conda env in terminal
    ```
@@ -55,3 +59,10 @@ This repository contains a solution for the Guided Project: Exploring eBay Car S
    conda deactivate
    conda remove --name YOUR_ENVIROMENT_NAME --all
    ```
+
+## Authors
+- [Arthur Cunha](https://github.com/arthurfpcl22)
+- [Thiago Maia](https://github.com/thiagomaiasouto)
+
+## Credits
+The overall structure of the project was heavily influenced by this [article](https://towardsdatascience.com/from-jupyter-notebook-to-sc-582978d3c0c).
