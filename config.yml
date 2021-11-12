@@ -1,0 +1,4 @@
+etl:
+  raw_data_file: "./data/autos.csv"
+  processed_path: "./data"
+  

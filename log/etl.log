@@ -1,0 +1,22 @@
+2021-11-12 10:01:52,056 : INFO : utils : Finished logger configuration!
+2021-11-12 10:01:52,056 : INFO : utils : Load config from ./config.yml
+2021-11-12 10:01:52,058 : INFO : utils : config: {'raw_data_file': './data/autos.csv', 'processed_path': './data'}
+2021-11-12 10:01:52,058 : INFO : utils : -------------------Start data transformation-------------------
+2021-11-12 10:01:52,282 : INFO : utils : The ./data/autos.csv was loaded.
+2021-11-12 10:01:52,283 : INFO : utils : The columns of 'autos' DataFrame was renamed.
+2021-11-12 10:01:52,292 : INFO : utils : The columns 'nr_of_pictures', 'seller', 'odometer' were dropped.
+2021-11-12 10:01:52,355 : INFO : utils : The column 'price' was converted to dtype 'int'.
+2021-11-12 10:01:52,426 : INFO : utils : The column 'odometer' was converted to dtype 'int'.
+2021-11-12 10:01:52,428 : INFO : utils : The column 'odometer' was renamed to 'odometer_km'.
+2021-11-12 10:01:52,442 : INFO : utils : 'autos' was filtered by 'price' column values between 500 and 1300000.
+2021-11-12 10:01:52,452 : INFO : utils : 'autos' was filtered by 'registration_year' column values between 1950 and 2016.
+2021-11-12 10:01:52,458 : INFO : utils : The top 6 car brands was selected and stored in 'brands' variable
+2021-11-12 10:01:52,478 : INFO : utils : The mean price of top 6 car brands was stored in 'mean_price' dict.
+2021-11-12 10:01:52,497 : INFO : utils : The mean mileage of top 6 car brands was stored in 'mean_mileage' variable.
+2021-11-12 10:01:52,497 : INFO : utils : -------------------End of data transformation-------------------
+2021-11-12 10:01:52,497 : INFO : utils : The 'mean_price' dict was converted to pd.Series.
+2021-11-12 10:01:52,498 : INFO : utils : The 'mean_mileage' dict was converted to pd.Series.
+2021-11-12 10:01:52,498 : INFO : utils : The DataFrame 'df_mean_price_mileage' was created.
+2021-11-12 10:01:52,499 : INFO : utils : The column 'mean_mileage' was added to 'df_mean_price_mileage'.
+2021-11-12 10:01:52,499 : INFO : utils : Write data to data
+2021-11-12 10:01:52,969 : INFO : utils : The DataFrames were saved in CSV files.
