@@ -16,7 +16,9 @@ This repository contains a solution for the Guided Project: Exploring eBay Car S
 ├── log
 │   ├── etl.log               
 ├── notebook
-│   └── prediction-of-quality-of-wine.ipynb
+|   ├── images
+|   |    ├── car_sales.jpg   
+│   └── Exploring_eBay_Car_Sales.ipynb
 └── scripts           
     ├── etl.py                
     └── utils.py
